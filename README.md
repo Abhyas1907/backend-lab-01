@@ -46,7 +46,7 @@ Environment variables: optional `PORT` (defaults to 3000). No secrets are needed
 ![Unknown path returns 404]![alt text](image-3.png)
 ## package.json fields (Task 1)
 
-- `name` – project name; `version` – semantic version; `description` – short summary
+- `name` – Backend_lab1; `version` – semantic version; `description` – short summary
 - `main` – entry file; `scripts` – commands run with `npm run` (`npm start`)
 - `author`, `license` – owner and licence; `dependencies` – packages the app needs at runtime (express)
 
