@@ -2,7 +2,16 @@
 
 **Name:** Allamraju Abhyas · **Registration number:** 252U1R1009 · **Section:** CSE-2A
 
-**Live link:** Not deployed. The server was not deployed to Render/Railway/Cloud IDE; it was run and tested locally (screenshots below).
+**Live link:** https://backend-lab-01.onrender.com
+
+## Live Routes (Render)
+
+| Route | Live URL |
+|-------|----------|
+| 🏠 Home | https://backend-lab-01.onrender.com/ |
+| ℹ️ About | https://backend-lab-01.onrender.com/about |
+| 🕐 Time | https://backend-lab-01.onrender.com/time |
+| ❌ 404 Not Found | https://backend-lab-01.onrender.com/nonexistent |
 
 ## How to run
 
