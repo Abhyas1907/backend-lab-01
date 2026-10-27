@@ -58,4 +58,44 @@ Environment variables: optional `PORT` (defaults to 3000). No secrets are needed
 
 ## Notes: problems faced and how I solved them
 
-- The 404 handler must be registered after all other routes, otherwise it would catch valid paths.
+1. Incorrect Directory Navigation
+
+Problem: I initially tried to navigate to the Desktop directory, but the system could not find the specified path.
+
+Solution: I checked my current working directory and continued working inside the correct project folder using Command Prompt.
+
+2. Project Folder Organization
+
+Problem: I accidentally created an additional project folder inside my existing "lab-01" directory.
+
+Solution: I corrected the directory structure and ensured that all the lab files were organized inside the correct "lab-01" folder.
+
+3. Node.js Project Initialization
+
+Problem: I needed to configure the project before writing the server code.
+
+Solution: I used "npm init -y" to generate the "package.json" file containing the project metadata and configuration.
+
+4. Installing Express.js
+
+Problem: The project required Express.js to create the web server and handle HTTP requests.
+
+Solution: I executed "npm install express" to install Express and its dependencies successfully.
+
+5. Implementing HTTP Routes
+
+Problem: I needed to handle different URL paths and return the appropriate responses.
+
+Solution: I used Express route handlers to implement the home, about, and time endpoints.
+
+6. Handling Unknown Routes
+
+Problem: Requests to undefined URLs needed to return a proper 404 status code instead of a successful response.
+
+Solution: I added a middleware handler after the defined routes to return a "404 Not Found" response for unknown paths.
+
+7. Verifying HTTP Status Codes
+
+Problem: I needed to verify whether each endpoint returned the correct HTTP status code.
+
+Solution: I tested the endpoints in a browser and used the browser's Developer Tools or "curl -i" to inspect the response status codes.
